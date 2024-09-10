@@ -1,0 +1,188 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a3d;
+    color: #fff;
+}
+
+.resume-container {
+    display: flex;
+    max-width: 1000px;
+    margin: 40px auto;
+    background-color: #252550;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.left-column {
+    width: 35%;
+    padding: 30px;
+    background-color: #ffcc00;
+    color: #1a1a3d;
+}
+
+.left-column h2, .left-column h3 {
+    margin: 0;
+    color: #1a1a3d;
+}
+
+.left-column h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.left-column h3 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.about-me, .contact, .social-links {
+    margin-top: 30px;
+}
+
+.about-me h4, .contact h4, .social-links h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+
+.left-column p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.social-links ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.social-links ul li {
+    font-size: 18px;
+}
+
+.social-links ul li a {
+    color: #1a1a3d;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.right-column {
+    width: 65%;
+    padding: 30px;
+    background-color: #4d4dba;
+}
+
+.right-column h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #ffcc00;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #fff;
+}
+
+ul li strong {
+    color: #ffcc00;
+}
+
+.programming-skills ul, .software-skills ul, .interests ul {
+    display: grid;
+    grid-template-columns: repeat(2, 160px);
+    gap: 10px;
+}
+
+.programming-skills ul li, .software-skills ul li, .interests ul li {
+    font-size: 14px;
+}
+
+.interests ul {
+    display: flex;
+    gap: 15px;
+}
+
+.interests ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+}
+
+.interests ul li i {
+    font-size: 24px;
+    color: #ffcc00;
+    margin-bottom: 5px;
+}
+
+/* Specific styles for bars (programming skills) */
+.skill-bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    height: 8px;
+    margin-top: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.skill-bar div {
+    height: 100%;
+    background-color: #ffcc00;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+}
+
+.skill-90 { width: 90%; }
+.skill-75 { width: 75%; }
+.skill-85 { width: 85%; }
+.skill-65 { width: 65%; }
+
+/* Circle for Software Skills */
+.software-skills ul li {
+    text-align: center;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 4px solid #ffcc00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 10px;
+    color: #ffcc00;
+    font-size: 16px;
+}
+
+/* Icons for Interests */
+.interests ul li {
+    text-align: center;
+}
+
+.interests ul li i {
+    margin-bottom: 8px;
+}
+
